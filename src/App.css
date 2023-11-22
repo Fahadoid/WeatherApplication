@@ -1,0 +1,220 @@
+/* GENERAL STYLING SETTINGS  */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+#App {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  margin:0;
+  text-align: center;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* ----------------------- */ 
+
+
+/* HEADER STYLING - Settings/Refresh Icon, Date and Time, Search bar  */
+.refreshIcon {
+  height: 30px;
+  width: 30px;
+  right: 5px;
+  top: 0px;
+  position: absolute;
+  cursor:pointer;
+  padding: 1%;
+  -webkit-filter: drop-shadow(1px 1px 1px #868686);
+  filter: drop-shadow(1px 1px 1px #000000);
+}
+
+.settingsIcon {
+  height: 26px;
+  width: 26px;
+  left: 3px;
+  position: absolute;
+  cursor:pointer;
+  padding: 1.5%;
+  -webkit-filter: drop-shadow(1px 1px 1px #868686);
+  filter: drop-shadow(1px 1px 1px #000000);
+}
+/* ----------------------- */ 
+
+/* MAIN FORECAST STYLING  */
+#cityName {
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#temperature {
+  text-shadow: 1px 1px 3px #000000;
+}
+
+#description {
+  text-shadow: 1px 1px 3px #000000;
+}
+
+#dateText {
+  font-size: 22px;
+  padding: 20px;
+  padding-bottom: 0px;
+  line-height: 5px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#timeText {
+  font-size: 18px;
+  padding-bottom: 2px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.fadeBackground {
+  max-height: 40vh;
+  padding: 3px;
+  width: 70%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+  radius:100px;
+  border-radius:8px;
+}
+.selectMenu {
+  font-size: 14px;
+  width: 75px;
+}
+/* ----------------------- */ 
+
+
+/* IMAGE STYLING - GENERAL */
+#photo {
+  height: 70px;
+  width: 70px;
+  -webkit-filter: drop-shadow(1px 1px 3px #000000);
+  filter: drop-shadow(1px 1px 3px #000000);
+}
+
+/* ----------------------- */ 
+
+/* BOTTOM TAB STYLING - GENERAL  */
+
+.bottomTab {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  min-height: 20%;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  font-size: 24px;
+  overflow-y: scroll;
+}
+
+.tabTitleText {
+  font-size: 20px;
+  color: #282c34;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 5px;
+  width: 50%;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.tabTitleWords {
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+}
+/* ----------------------- */ 
+
+/* BOTTOM TAB - FIVEDAY FORECAST STYLING */
+
+/* ----------------------- */ 
+
+/* BOTTOM TAB - FIVEDAY FORECAST STYLING */
+
+.forecastRow {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #383838;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  padding: 1px;
+  border: rgb(194, 193, 193) 0.5px;
+  border-style: solid;
+}
+
+.fiveDayTemp {
+  display: inline;
+  font-size: 18px;
+}
+
+.fiveDayNumTemp {
+  display: inline;
+  font-size: 24px;
+  
+}
+/* ----------------------- */ 
+
+/* BOTTOM TAB - SOCIAL MEDIA STYLING  */
+
+.SocialMedia {
+  overflow:scroll;
+}
+
+.postsIntroText {
+  font-size: 15px;
+}
+
+.instagramBtn {
+  float: right;
+  right: 25%;
+  margin: 10px;;
+  color: white;
+  background-color: rgba(242, 235, 235, 0.2);
+  font-size: 18px;
+}
+
+.instagramCloseBtn {
+ float: left;
+ left: 25%;
+ margin: 10px;
+ font-size: 18px;
+}
+
+.usernameText {
+  font-size: 10px;
+}
+
+.igTopPosts {
+  display: inline-block;
+}
+/* ----------------------- */ 
+
+/* LOADING ANIMATION STYLING  */
+
+.loader {
+  border: 7px solid #f3f3f3; /* Light grey */
+  border-top: 7px solid #8c98a0; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ----------------------------- */ 
